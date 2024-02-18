@@ -7,15 +7,19 @@ public class Main {
     }
 
     public static void printThreeWords() {
-        System.out.println("Orange");
-        System.out.println("Banana");
-        System.out.println("Apple");
+        System.out.println("Orange\nBanana\nApple");
     }
 
     public static void checkSumSign() {
-        int a = 5;
-        int b = 6;
-        System.out.println(a + b > 0 ? "Сумма положительная" : "Сумма отрицательная");
+        int a = 10;
+        int b = -5;
+        int sum = a + b;
+
+        if (sum >= 0) {
+            System.out.println("Смма пологительна");
+        } else {
+            System.out.println("Смма отрицательна");
+        }
     }
 
     public static void printColor() {

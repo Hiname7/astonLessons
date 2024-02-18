@@ -16,9 +16,9 @@ public class Main {
         int sum = a + b;
 
         if (sum >= 0) {
-            System.out.println("Смма пологительна");
+            System.out.println("Сумма положительная");
         } else {
-            System.out.println("Смма отрицательна");
+            System.out.println("Сумма отрицательная");
         }
     }
 
